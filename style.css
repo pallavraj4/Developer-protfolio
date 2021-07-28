@@ -9,7 +9,7 @@ h1{
 .lit-cloud{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -36,4 +36,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.junior-web{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 14px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+#junior{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
